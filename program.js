@@ -19,11 +19,11 @@ const TodoBox = require('./views/index.jsx');
 const data = [
   {
     title: 'Shopping',
-    detail: 'Milk',
+    detail: 'Milk', // process.argv[3]
   },
   {
     title: 'Hair cut',
-    detail: '13:00',
+    detail: '13:00', // process.argv[4]
   },
 ];
 
