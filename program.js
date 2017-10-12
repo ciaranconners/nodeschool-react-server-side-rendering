@@ -64,7 +64,6 @@ the script tag causes the browser to request bundle.js , which hits the app.use 
   the whole application is then sent to the client which can now act fully autonomously
 */
 
-
 app.listen(app.get('port'), () => {
   console.log('listening on port %s', app.get('port').toString());
 });
